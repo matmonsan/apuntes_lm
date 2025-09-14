@@ -13,26 +13,28 @@ Todo lenguaje de marcas está definido en un documento denominado **DTD (Documen
 Aunque en la práctica, en un mismo documento pueden combinarse varios tipos diferentes de lenguajes de marcas, éstos se pueden clasificar como sigue:
 
 - **De presentación**: Define el formato del texto.  
-- **De procedimientos**: Orientado también a la presentación pero, en este caso, el programa que representa el documento debe interpretar el código en el mismo orden en que aparece.  
-- **Descriptivo o semántico**: Describen las diferentes partes en las que se estructura el documento pero sin especificar cómo deben representarse.  
+- **De procedimientos**: Orientado también a la presentación, pero el programa que representa el documento interpreta el código en el mismo orden en que aparece.  
+- **Descriptivo o semántico**: Describe las diferentes partes en las que se estructura el documento sin especificar cómo deben representarse.  
 
 ---
 
-## Algunos ejemplos de lenguajes de marcado agrupados por su ámbito de utilización:
+## 🌟 Lenguajes de marcado por ámbito de uso
 
-### 📄 Documentación electrónica
-- **RTF (Rich Text Format)**: Formato de Texto Enriquecido, fue desarrollado por Microsoft en 1987. Permite el intercambio de documentos de texto entre distintos procesadores de texto.  
-- **TeX**: Su objetivo es la creación de ecuaciones matemáticas complejas.  
-- **Wikitexto**: Permite la creación de páginas wiki en servidores preparados para soportar este lenguaje.  
-- **DocBook**: Permite generar documentos separando la estructura lógica del documento de su formato. De este modo, dichos documentos pueden publicarse en diferentes formatos sin necesidad de realizar modificaciones en el documento original.  
-
-### 🌐 Tecnologías de internet
-- **HTML, XHTML (Hypertext Markup Language, eXtensible Hypertext Markup Language)**: Su objetivo es la creación de páginas web.  
-- **RSS**: Permite la difusión de contenidos web.  
-
-### ⚙️ Otros lenguajes especializados
-- **MathML (Mathematical Markup Language)**: Su objetivo es expresar el formalismo matemático de tal modo que pueda ser entendido por distintos sistemas y aplicaciones.  
-- **VoiceXML (Voice Extended Markup Language)**: Tiene como objetivo el intercambio de información entre un usuario y una aplicación con capacidad de reconocimiento de habla.  
-- **MusicXML**: Permite el intercambio de partituras entre distintos editores de partituras.  
+| Categoría | Lenguaje | Descripción |
+|-----------|----------|------------|
+| 📄 **Documentación electrónica** | **RTF** | Formato de texto enriquecido desarrollado por Microsoft, aún usado para intercambio entre procesadores de texto. |
+| | **TeX / LaTeX** | Ideal para documentos científicos y académicos con fórmulas matemáticas. LaTeX facilita la estructuración de documentos grandes. |
+| | **Markdown** | Lenguaje ligero muy popular para documentación técnica, blogs y GitHub. |
+| | **DocBook** | Para documentación técnica y manuales de software, separando contenido de presentación. |
+| | **Asciidoc / Asciidoctor** | Formatos modernos para documentación técnica, exportables a HTML, PDF, EPUB y más. |
+| 🌐 **Tecnologías de internet** | **HTML5 / XHTML** | Base de la web, con soporte para multimedia, gráficos vectoriales y semántica avanzada. |
+| | **RSS / Atom** | Protocolos de sindicación de contenidos web para recibir actualizaciones automáticamente. |
+| | **JSON-LD / Microdata / RDFa** | Lenguajes de marcado semántico para describir datos en la web y mejorar SEO e interoperabilidad. |
+| ⚙️ **Otros lenguajes especializados** | **MathML** | Expresa matemáticas de forma estructurada, interpretable por navegadores y software científico. |
+| | **VoiceXML** | Crea aplicaciones de voz con reconocimiento de habla y síntesis de voz. |
+| | **MusicXML** | Formato estándar para intercambio de partituras entre editores musicales. |
+| | **SVG** | Gráficos vectoriales escalables en la web y aplicaciones. |
+| | **XBRL** | Presentación de información financiera en formato estructurado y legible por máquinas. |
+ 
 
 
