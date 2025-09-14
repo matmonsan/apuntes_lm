@@ -18,6 +18,7 @@ Todo lenguaje de marcas está definido en un documento denominado **DTD (Documen
     <contenido>bla bla bla bla …</contenido>
     <firma>Don José Gutiérrez González</firma>
 </carta>
+{% endraw %}
 
 Aunque en la práctica, en un mismo documento pueden combinarse varios tipos diferentes de lenguajes de marcas, éstos se pueden clasificar como sigue:
 
