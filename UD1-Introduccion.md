@@ -9,8 +9,14 @@ Todo lenguaje de marcas está definido en un documento denominado **DTD (Documen
 ---
 
 ### Ejemplo de un documento realizado con un lenguaje de marcas
+
 ```html
-<etiqueta>hola</etiqueta>
+<carta>
+	<fecha>22/11/2006</fecha>
+	<presentacion>Estimado cliente:</presentacion>
+	<contenido>bla bla bla bla …</contenido>
+	<firma>Don José Gutiérrez González</firma>
+</carta>
 ```
 
 Aunque en la práctica, en un mismo documento pueden combinarse varios tipos diferentes de lenguajes de marcas, éstos se pueden clasificar como sigue:
